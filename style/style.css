@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Audiowide', cursive;
+}
+
+.grid{
+    display: grid;
+}
+.text-lobby{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+}
+
+.Audiowide{
+    font-weight: 900;
+}
+
+,img-background{
+    grid-area: auto;
+}
