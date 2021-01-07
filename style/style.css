@@ -1,26 +1,35 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body{
+body {
     font-family: 'Audiowide', cursive;
 }
 
-.grid{
+.grid {
     display: grid;
-}
-.text-lobby{
-    display: flexbox;
-    justify-content: center;
+}    
+
+.text-lobby {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 65px;
+    margin: 0 0 5px;
+    
 }
 
-.Audiowide{
-    font-weight: 900;
-}
 
-,img-background{
-    grid-area: auto;
-}
+.md{ 
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+
